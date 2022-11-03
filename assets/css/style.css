@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(135deg, #87c8fa, 60%, #1f2d87);
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
