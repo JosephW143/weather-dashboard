@@ -10,5 +10,7 @@ It also features dynamically updated HTML to display weather information based o
 * JavaScript
 
 ## Website Screenshot
+coming soon...
 
 ## Website link
+https://josephw143.github.io/weather-dashboard/
