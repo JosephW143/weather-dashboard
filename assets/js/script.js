@@ -1,5 +1,7 @@
+// DOM imports
 var serachInput = document.querySelector('#citySearch');
 
+// city search submit handler 
 var formSubmitHandeler = function(event) {
     event.preventDefault();
     var city = serachInput.value.trim();
@@ -13,6 +15,7 @@ var formSubmitHandeler = function(event) {
     }
 };
 
+// pulls weather based on searched city
 var cityWeather = function(city) {
     var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=imperial&appid=4473e73356f0ef2504a057bce682a5df'
 

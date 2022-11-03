@@ -7,13 +7,14 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* header styles */
 header {
     display: flex;
     background-image: linear-gradient(135deg, #87c8fa, 60%, #1f2d87);
     justify-content: center;
 }
 
+/* main styles */
 li {
     list-style-type: none;
 }
